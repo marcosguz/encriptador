@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg">
+		<div class="container">
+		  <a class="navbar-brand">Marcos Guzman</a>
+		  <div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page">Encriptador de Texto</a>
+			  </li>
+			</ul>
+			<span class="navbar-text">
+			  Alura Latam
+			</span>
+		  </div>
+		</div>
+	</nav>
+
+
+	<!-- Main-->
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-5 col-lg-6">
+					<form>
+						<legend>Sólo letras minúsculas, sin acento</legend>
+						<div class="mb-3">
+							<input type="text" class="form-control" name="input-texto" id="mensaje-ingresado"
+							placeholder="Ingrese el texto aqui">
+						</div>
+						<div class="mb-3">
+						</div>
+						<button type="submit" class="btn btn-primary" id="btn-encriptar">Encriptar</button>
+						<button type="submit" class="btn btn-primary" id="btn-desencriptar">Desencriptar</button>
+					</form>
+				</div>
+				<div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+					<section>
+						<legend>Mensaje encriptado</legend>
+						<input class="form-control" type="text" id="msg"></input>
+						<input class="btn btn-primary" type="submit" value="Copiar" id="btn-copy">
+					</section>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container-footer">
+			<a href="https://www.facebook.com/marcos.guzman.3950" target="_blanck">
+				<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+			</a>
+			<a href="https://www.instagram.com/marcos_guz4/" target="_blanck">
+				<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+			</a>
+			<a href="https://www.linkedin.com/in/marcos-guzm%C3%A1n-nazareno-277161222/" target="_blanck">
+				<i class="fab fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+			</a>
+		</div>
+		<div class="copy">
+			<p>
+				&copy; 2022 Copyright Todos los derechos reservados 
+			</p>
+			<a href="mailto:marcosguzzz@gmail.com">Creado por: Marcos Guzmán</a>
+		</div>
+	</footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
